@@ -348,7 +348,14 @@ h4 { font-size: 1.3rem; }
 }
 
 .hero-info {
+    margin-top: 2rem;
+    text-align: center;
     animation: fadeInUp 0.8s ease 1s both;
+}
+@media (max-width: 768px) {
+    .hero-info {
+        margin-bottom: 100px; /* Add space for scroll indicator */
+    }
 }
 
 .hero-info p {
@@ -380,12 +387,13 @@ h4 { font-size: 1.3rem; }
     color: var(--white);
     font-size: 0.9rem;
     animation: fadeInUp 0.8s ease 1.2s both;
+    z-index: 10;
 }
 /* Mobile fix */
 @media (max-width: 768px) {
     .scroll-indicator {
-        bottom: 140px; /* More space on mobile */
-       font-size: 0.8rem;
+        bottom: 20px; /* Closer to bottom */
+        font-size: 0.8rem;
     }
 }
 
@@ -400,8 +408,9 @@ h4 { font-size: 1.3rem; }
 }
 @media (max-width: 768px) {
     .scroll-arrow {
-        width: 24px; /* Slightly smaller */
+        width: 24px;
         height: 24px;
+        margin: 8px auto 0;
     }
 }
 
