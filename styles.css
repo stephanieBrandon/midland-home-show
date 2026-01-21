@@ -273,6 +273,8 @@ h4 { font-size: 1.3rem; }
     margin: 0 auto;
     color: var(--white);
     padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
 }
 /* Mobile override */
 @media (max-width: 768px) {
@@ -395,8 +397,6 @@ h4 { font-size: 1.3rem; }
     font-size: 0.9rem;
     animation: fadeInUp 0.8s ease 1.2s both;
     z-index: 10;
-    justify-content: center;
-    align-items: center;
 }
 /* Mobile fix */
 @media (max-width: 768px) {
