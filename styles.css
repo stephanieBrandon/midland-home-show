@@ -272,7 +272,7 @@ h4 { font-size: 1.3rem; }
     max-width: 900px;
     margin: 0 auto;
     color: var(--white);
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 /* Mobile override */
 @media (max-width: 768px) {
@@ -400,7 +400,7 @@ h4 { font-size: 1.3rem; }
 @media (max-width: 768px) {
     .scroll-indicator {
       bottom: 50px; 
-      left: 50%; !important
+      left: 50%;
       transform: translateX(-50%);
       font-size: 0.8rem;
     }
