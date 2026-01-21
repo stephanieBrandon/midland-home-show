@@ -392,8 +392,9 @@ h4 { font-size: 1.3rem; }
 /* Mobile fix */
 @media (max-width: 768px) {
     .scroll-indicator {
-        bottom: 20px; /* Closer to bottom */
-        font-size: 0.8rem;
+      bottom: 50%; /* Center vertically */
+      transform: translate(-50%, 50%); /* Center both horizontally and vertically */
+      font-size: 0.8rem;
     }
 }
 
