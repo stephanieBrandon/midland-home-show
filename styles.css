@@ -354,7 +354,7 @@ h4 { font-size: 1.3rem; }
 }
 @media (max-width: 768px) {
     .hero-info {
-        margin-bottom: 100px; /* Add space for scroll indicator */
+        margin-bottom: 180px; /* Add space for scroll indicator */
     }
 }
 
@@ -392,8 +392,7 @@ h4 { font-size: 1.3rem; }
 /* Mobile fix */
 @media (max-width: 768px) {
     .scroll-indicator {
-      bottom: 50%; /* Center vertically */
-      transform: translate(-50%, 50%); /* Center both horizontally and vertically */
+      bottom: 90px; 
       font-size: 0.8rem;
     }
 }
