@@ -359,6 +359,11 @@ h4 { font-size: 1.3rem; }
     text-align: center;
     animation: fadeInUp 0.8s ease 1s both;
 }
+@media (max-width: 768px) {
+    .hero-info {
+        margin-bottom: 60px; /* Add space below the email */
+    }
+}
 
 .hero-info p {
     margin: 8px 0;
@@ -394,7 +399,9 @@ h4 { font-size: 1.3rem; }
 /* Mobile fix */
 @media (max-width: 768px) {
     .scroll-indicator {
-      bottom: 30px; 
+      bottom: 50px; 
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 0.8rem;
     }
 }
