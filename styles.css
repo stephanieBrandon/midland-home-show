@@ -384,7 +384,8 @@ h4 { font-size: 1.3rem; }
 /* Mobile fix */
 @media (max-width: 768px) {
     .scroll-indicator {
-        bottom: 80px; /* More space on mobile */
+        bottom: 140px; /* More space on mobile */
+       font-size: 0.8rem;
     }
 }
 
