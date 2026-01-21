@@ -272,6 +272,13 @@ h4 { font-size: 1.3rem; }
     max-width: 900px;
     margin: 0 auto;
     color: var(--white);
+    padding-bottom: 80px;
+}
+/* Mobile override */
+@media (max-width: 768px) {
+    .hero-content {
+        padding-bottom: 120px; /* More space on mobile */
+    }
 }
 
 .hero-badge {
