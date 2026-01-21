@@ -381,6 +381,12 @@ h4 { font-size: 1.3rem; }
     font-size: 0.9rem;
     animation: fadeInUp 0.8s ease 1.2s both;
 }
+/* Mobile fix */
+@media (max-width: 768px) {
+    .scroll-indicator {
+        bottom: 80px; /* More space on mobile */
+    }
+}
 
 .scroll-arrow {
     width: 30px;
@@ -390,6 +396,12 @@ h4 { font-size: 1.3rem; }
     transform: rotate(45deg);
     margin: 10px auto 0;
     animation: bounce 2s infinite;
+}
+@media (max-width: 768px) {
+    .scroll-arrow {
+        width: 24px; /* Slightly smaller */
+        height: 24px;
+    }
 }
 
 /* Animations */
